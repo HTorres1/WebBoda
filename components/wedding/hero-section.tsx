@@ -56,7 +56,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="text-background/90 text-lg md:text-xl font-light tracking-wide"
         >
-          17 de Octubre, 2026 aprox
+          17 de Octubre, 2026
         </motion.p>
 
         <motion.p

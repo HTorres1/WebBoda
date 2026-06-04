@@ -14,18 +14,18 @@ export function Footer() {
           transition={{ duration: 0.6 }}
         >
           <h3 className="font-serif text-3xl md:text-4xl mb-4">
-            María & Carlos
+            Belén y Kike
           </h3>
 
           <div className="flex items-center justify-center gap-2 text-background/80 mb-8">
-            <span>15 de Junio, 2025</span>
+            <span>17 de Octubre, 2026</span>
             <Heart className="w-4 h-4 text-accent" fill="currentColor" />
             <span>Madrid, España</span>
           </div>
 
           <p className="text-background/60 text-sm max-w-md mx-auto mb-8">
             No podemos esperar para celebrar este día tan especial con todos
-            ustedes. Su presencia será el mejor regalo.
+            vosotros. Vuestra presencia será el mejor regalo.
           </p>
 
           <nav className="flex flex-wrap justify-center gap-6 text-sm text-background/70 mb-8">
@@ -61,7 +61,7 @@ export function Footer() {
           <div className="w-16 h-px bg-background/20 mx-auto mb-8" />
 
           <p className="text-background/50 text-xs tracking-wide">
-            #MaríaYCarlos2025
+            #BelénYKike2026
           </p>
         </motion.div>
       </div>

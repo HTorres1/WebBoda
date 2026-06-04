@@ -127,10 +127,10 @@ export function CountdownSection() {
           className="mt-16"
         >
           <p className="text-muted-foreground text-lg">
-            Domingo, 15 de Junio de 2025 a las 17:00h
+            Sábado, 17 de Octubre de 2026 a las 12:00h
           </p>
           <p className="text-muted-foreground mt-2">
-            Hacienda Los Robles, Carretera de Burgos km 15, Madrid
+            Finca Espino de Torote, Fresno de Torote, Madrid
           </p>
         </motion.div>
       </div>
