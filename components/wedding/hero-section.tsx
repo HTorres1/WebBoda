@@ -14,7 +14,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/wedding-hero.jpg"
+          src="/images/boda-hero.jpg"
           alt="María y Carlos"
           fill
           className="object-cover"

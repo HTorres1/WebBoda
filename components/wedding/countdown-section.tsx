@@ -11,7 +11,7 @@ interface TimeLeft {
 }
 
 function calculateTimeLeft(): TimeLeft {
-  const weddingDate = new Date("2025-06-15T17:00:00");
+  const weddingDate = new Date("2026-10-17T12:00:00");
   const difference = weddingDate.getTime() - new Date().getTime();
 
   if (difference <= 0) {
