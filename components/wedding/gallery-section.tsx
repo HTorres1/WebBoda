@@ -7,23 +7,23 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const galleryImages = [
   {
-    src: "/images/wedding-1.jpg",
+    src: "/images/boda-1.jpg",
     alt: "María y Carlos juntos",
   },
   {
-    src: "/images/wedding-2.jpg",
+    src: "/images/boda-2.jpg",
     alt: "Lugar de la ceremonia",
   },
   {
-    src: "/images/wedding-3.jpg",
+    src: "/images/boda-3.jpg",
     alt: "Decoración de la mesa",
   },
   {
-    src: "/images/wedding-4.jpg",
+    src: "/images/boda-4.jpg",
     alt: "Los anillos",
   },
   {
-    src: "/images/wedding-5.jpg",
+    src: "/images/boda-5.jpg",
     alt: "El ramo de novia",
   },
 ];
