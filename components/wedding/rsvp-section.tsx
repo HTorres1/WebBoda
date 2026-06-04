@@ -2,17 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+// nada de imports UI
 import { Check, Heart } from "lucide-react";
 
 export function RsvpSection() {
@@ -100,108 +90,51 @@ export function RsvpSection() {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <Label htmlFor="name" className="text-foreground">
-                Nombre completo
-              </Label>
-              <Input
-                id="name"
-                name="name"
-                placeholder="Tu nombre"
-                required
-                className="bg-background border-border"
-              />
+              <label className="text-sm font-medium">Nombre Completo</label>
+              <input className="w-full p-2 border rounded-md" />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="email" className="text-foreground">
-                Correo electrónico
-              </Label>
-              <Input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="tu@email.com"
-                required
-                className="bg-background border-border"
-              />
+              <label className="text-sm font-medium">Email</label>
+              <input className="w-full p-2 border rounded-md" />
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <Label htmlFor="attendance" className="text-foreground">
-                ¿Asistirás?
-              </Label>
-              <Select value={attendance} onValueChange={setAttendance} required>
-                <SelectTrigger className="bg-background border-border">
-                  <SelectValue placeholder="Selecciona una opción" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="yes">Sí, asistiré con gusto</SelectItem>
-                  <SelectItem value="no">
-                    Lo siento, no podré asistir
-                  </SelectItem>
-                </SelectContent>
-              </Select>
+              <label className="text-sm font-medium">Asistirás?</label>
+              <select className="w-full p-2 border rounded-md">
+                <option value="1">Sí, asistiré con gusto</option>
+                <option value="2">Lo siento, no podré asistir</option>
+              </select>
             </div>
 
-            <div className="space-y-2">
-              <Label htmlFor="guests" className="text-foreground">
-                Número de invitados
-              </Label>
-              <Select>
-                <SelectTrigger className="bg-background border-border">
-                  <SelectValue placeholder="Selecciona" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="1">1 persona</SelectItem>
-                  <SelectItem value="2">2 personas</SelectItem>
-                  <SelectItem value="3">3 personas</SelectItem>
-                  <SelectItem value="4">4 personas</SelectItem>
-                </SelectContent>
-              </Select>
+            <div className="space-y-2">              
+              <label className="text-sm font-medium">Número de invitados</label>
+              <select className="w-full p-2 border rounded-md">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="2">3</option>
+                <option value="2">4</option>
+              </select>
             </div>
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="dietary" className="text-foreground">
-              Restricciones alimentarias
-            </Label>
-            <Input
-              id="dietary"
-              name="dietary"
-              placeholder="Alergias, vegetariano, vegano, etc."
-              className="bg-background border-border"
-            />
+            
+            <label className="text-sm font-medium">Restricciones alimentarias</label>
+            <input className="w-full p-2 border rounded-md" />
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="message" className="text-foreground">
-              Mensaje para los novios (opcional)
-            </Label>
-            <Textarea
-              id="message"
-              name="message"
-              placeholder="Escribe un mensaje especial..."
-              rows={4}
-              className="bg-background border-border resize-none"
-            />
+            
+            <label className="text-sm font-medium">Mensaje para los novios (opcional)</label>
+            <textarea className="w-full p-2 border rounded-md" />
           </div>
 
-          <Button
-            type="submit"
-            disabled={formState === "submitting"}
-            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-6 text-base tracking-wide"
-          >
-            {formState === "submitting" ? (
-              "Enviando..."
-            ) : (
-              <>
-                <Heart className="w-4 h-4 mr-2" />
-                Confirmar Asistencia
-              </>
-            )}
-          </Button>
+          <button className="px-4 py-2 bg-black text-white rounded-md hover:opacity-90">
+            Enviar
+          </button>
         </motion.form>
       </div>
     </section>
