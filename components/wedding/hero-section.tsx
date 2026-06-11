@@ -31,7 +31,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-background/90 text-sm md:text-base tracking-[0.3em] uppercase mb-6"
         >
-          Te invitamos a celebrar
+          Te invitamos a celebrar nuesta boda
         </motion.p>
 
         <motion.h1
