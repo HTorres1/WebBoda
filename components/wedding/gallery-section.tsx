@@ -26,6 +26,22 @@ const galleryImages = [
     src: "/images/boda-5.jpg",
     alt: "El ramo de novia",
   },
+  {
+    src: "/images/boda-6.jpg",
+    alt: "El ramo de novia",
+  },
+  {
+    src: "/images/boda-7.jpg",
+    alt: "El ramo de novia",
+  },
+  {
+    src: "/images/boda-8.jpg",
+    alt: "El ramo de novia",
+  },
+  {
+    src: "/images/boda-9.jpg",
+    alt: "El ramo de novia",
+  },
 ];
 
 export function GallerySection() {

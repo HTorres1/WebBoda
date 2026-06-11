@@ -7,32 +7,30 @@ const events = [
   {
     icon: MapPin,
     title: "Ceremonia",
-    time: "12:00",
+    time: "12:30",
     location: "Parroquia Castrense de la Armada",
     description: "Una ceremonia íntima rodeados de nuestros seres queridos.",
   },
   {
     icon: Utensils,
     title: "Cóctel",
-    time: "18:30",
+    time: "14:00",
     location: "Finca Espino de Torote",
     description:
       "Disfruta de aperitivos y bebidas mientras socializas con otros invitados.",
   },
   {
     icon: Clock,
-    title: "Cena",
-    time: "20:00",
+    title: "Comida",
     location: "Finca Espino de Torote",
     description:
-      "Una cena de cuatro tiempos preparada por nuestro chef exclusivo.",
+      "Disfruta de la degustación.",
   },
   {
     icon: Music,
     title: "Fiesta",
-    time: "22:30",
     location: "Finca Espino de Torote",
-    description: "¡Baila con nosotros toda la noche bajo las estrellas!",
+    description: "Para que continues bailando habrá una pre-cena",
   },
 ];
 

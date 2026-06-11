@@ -10,14 +10,14 @@ export function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen pt-24 md:pt-32 flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
           src="/images/boda-hero.jpg"
-          alt="María y Carlos"
+          alt="Belén y Kike"
           fill
-          className="object-cover"
+          className="object-cover object-[center_30%]"
           priority
         />
         <div className="absolute inset-0 bg-foreground/40" />
@@ -60,18 +60,6 @@ export function HeroSection() {
         </motion.p>
 
         <motion.a
-          href="https://maps.app.goo.gl/RhaUwNyQMN2JnBya9"
-          target="_blank"
-          rel="noopener noreferrer"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
-          className="block text-background/80 text-sm md:text-base mt-2 tracking-wide hover:underline"
-        >
-          📍 Finca Espino de Torote, Madrid
-        </motion.a>
-
-        <motion.a
           href="https://maps.app.goo.gl/gaE7UDEV1UT3HSw97"
           target="_blank"
           rel="noopener noreferrer"
@@ -81,6 +69,18 @@ export function HeroSection() {
           className="block text-background/80 text-sm md:text-base mt-2 tracking-wide hover:underline"
         >
           ⛪ Parroquia Castrense de la Armada, Madrid
+        </motion.a>
+
+        <motion.a
+          href="https://maps.app.goo.gl/RhaUwNyQMN2JnBya9"
+          target="_blank"
+          rel="noopener noreferrer"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1 }}
+          className="block text-background/80 text-sm md:text-base mt-2 tracking-wide hover:underline"
+        >
+          📍 Finca Espino de Torote, Madrid
         </motion.a>
       </div>
 

@@ -130,14 +130,6 @@ export function CountdownSection() {
             Sábado, 17 de Octubre de 2026 a las 12:00h
           </p>
           <motion.a
-            href="https://maps.app.goo.gl/RhaUwNyQMN2JnBya9"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-muted-foreground mt-2 hover:underline"
-          >
-            📍 Finca Espino de Torote, Fresno de Torote, Madrid
-          </motion.a>
-          <motion.a
             href="https://maps.app.goo.gl/gaE7UDEV1UT3HSw97"
             target="_blank"
             rel="noopener noreferrer"
@@ -145,6 +137,14 @@ export function CountdownSection() {
           >
             ⛪ Parroquia Castrense de la Armada, Madrid
           </motion.a>
+          <motion.a
+            href="https://maps.app.goo.gl/RhaUwNyQMN2JnBya9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-muted-foreground mt-2 hover:underline"
+          >
+            📍 Finca Espino de Torote, Fresno de Torote, Madrid
+          </motion.a>          
         </motion.div>
       </div>
     </section>
