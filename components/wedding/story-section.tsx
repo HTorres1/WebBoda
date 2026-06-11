@@ -5,29 +5,24 @@ import { Heart } from "lucide-react";
 
 const timeline = [
   {
-    date: "Marzo 2019",
-    title: "Nos conocimos",
+    date: "Septiembre 2022",
+    title: "El primer timbre",
     description:
-      "Un encuentro casual en una cafetería que cambiaría nuestras vidas para siempre.",
+      "Entre tizas, aulas y pasillos de colegio comenzó nuestra amistad.",
   },
   {
-    date: "Diciembre 2019",
+    date: "Marzo 2023",
     title: "Primera cita",
     description:
-      "Una cena bajo las estrellas que marcó el inicio de nuestra historia de amor.",
+      "Una tarde de microteatro, risas compartidas y el inicio de una función que nunca queremos que termine donde comenzó la historia de amor más bonita de nuestras vidas.",
   },
   {
-    date: "Febrero 2021",
-    title: "Nos mudamos juntos",
-    description:
-      "Decidimos dar el siguiente paso y construir nuestro hogar juntos.",
-  },
-  {
-    date: "Agosto 2024",
+    date: "Agosto 2025",
     title: "La propuesta",
     description:
-      "En la cima de una montaña, con vistas al atardecer, Carlos hizo la pregunta más importante.",
+      "En la cima del Pico de la Miel y tocando el cielo de Madrid, llegó el 'sí, quiero'.",
   },
+  
 ];
 
 export function StorySection() {

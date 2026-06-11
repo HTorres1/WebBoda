@@ -59,14 +59,29 @@ export function HeroSection() {
           17 de Octubre, 2026
         </motion.p>
 
-        <motion.p
+        <motion.a
+          href="https://maps.app.goo.gl/RhaUwNyQMN2JnBya9"
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1 }}
-          className="text-background/80 text-sm md:text-base mt-2 tracking-wide"
+          className="block text-background/80 text-sm md:text-base mt-2 tracking-wide hover:underline"
         >
-          Finca Espino de Torote, Madrid
-        </motion.p>
+          📍 Finca Espino de Torote, Madrid
+        </motion.a>
+
+        <motion.a
+          href="https://maps.app.goo.gl/gaE7UDEV1UT3HSw97"
+          target="_blank"
+          rel="noopener noreferrer"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1.1 }}
+          className="block text-background/80 text-sm md:text-base mt-2 tracking-wide hover:underline"
+        >
+          ⛪ Parroquia Castrense de la Armada, Madrid
+        </motion.a>
       </div>
 
       {/* Scroll Indicator */}

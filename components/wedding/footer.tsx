@@ -28,6 +28,21 @@ export function Footer() {
             vosotros. Vuestra presencia será el mejor regalo.
           </p>
 
+          <div className="mb-10">
+            <a
+              href="https://open.spotify.com/playlist/5gftlylytfYXC8ql7phUYe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-background/80 hover:text-background transition"
+            >
+              🎵 Ayúdanos a crear la banda sonora del día
+            </a>
+
+            <p className="text-background/50 text-sm mt-2">
+              Añade tus canciones favoritas a nuestra playlist
+            </p>
+          </div>
+
           <nav className="flex flex-wrap justify-center gap-6 text-sm text-background/70 mb-8">
             <a
               href="#countdown"
