@@ -22,6 +22,7 @@ const events = [
   {
     icon: Clock,
     title: "Comida",
+    time: "16:00",
     location: "Finca Espino de Torote",
     description:
       "Disfruta de la degustación.",
@@ -29,6 +30,7 @@ const events = [
   {
     icon: Music,
     title: "Fiesta",
+    time: "18:00",
     location: "Finca Espino de Torote",
     description: "Para que continues bailando habrá una pre-cena",
   },
