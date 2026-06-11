@@ -17,7 +17,7 @@ const timeline = [
       "Una tarde de microteatro, risas compartidas y el inicio de una función que nunca queremos que termine donde comenzó la historia de amor más bonita de nuestras vidas.",
   },
   {
-    date: "Agosto 2025",
+    date: "Junio 2025",
     title: "La propuesta",
     description:
       "En la cima del Pico de la Miel y tocando el cielo de Madrid, llegó el 'sí, quiero'.",
