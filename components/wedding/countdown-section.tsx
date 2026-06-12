@@ -127,7 +127,7 @@ export function CountdownSection() {
           className="mt-16"
         >
           <p className="text-muted-foreground text-lg">
-            Sábado, 17 de Octubre de 2026 a las 12:00h
+            Sábado, 17 de Octubre de 2026 a las 12:30h
           </p>
           <motion.a
             href="https://maps.app.goo.gl/gaE7UDEV1UT3HSw97"
