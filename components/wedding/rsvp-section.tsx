@@ -36,7 +36,7 @@ export function RsvpSection() {
           className="text-muted-foreground mb-10 max-w-md mx-auto"
         >
           Nos ayudaría muchísimo que confirmaras tu asistencia antes del
-          30 de Junio de 2026.
+          15 de Septiembre de 2026.
         </motion.p>
 
         <motion.a
