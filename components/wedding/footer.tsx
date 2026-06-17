@@ -29,7 +29,7 @@ export function Footer() {
           </p>
 
           <p className="text-background/60 text-sm max-w-md mx-auto mb-8">
-            Si quereis apoyar el inicio de esta nueva aventura
+            Si quereis apoyar el inicio de esta nueva aventura<br></br>
             ES04 2100 1165 8302 0031 9818
           </p>
 
