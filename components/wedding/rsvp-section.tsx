@@ -53,6 +53,20 @@ export function RsvpSection() {
           Confirmar asistencia
         </motion.a>
 
+        <br></br>
+        <br></br>
+        <br></br>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="text-muted-foreground mb-10 max-w-md mx-auto"
+        >
+          Si quereis apoyar el inicio de esta nueva aventura<br></br>
+            ES04 2100 1165 8302 0031 9818
+        </motion.p>
+
       </div>
     </section>
   );
